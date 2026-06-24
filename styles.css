@@ -124,3 +124,12 @@ button {
     background-color: transparent;
     min-width: 100px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 46, 19);
+    padding: 16px;
+    color: rgb(208, 231, 207);
+}
