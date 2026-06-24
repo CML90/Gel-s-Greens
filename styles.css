@@ -85,3 +85,12 @@ button {
     border-radius: 12px;
     aspect-ratio: 1;
 }
+
+.quote {
+    height: 300px;
+    background-color: rgb(192, 228, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 280px;
+}
