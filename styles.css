@@ -58,3 +58,30 @@ button {
 #about div{
     flex: 1;
 }
+
+.display {
+    height: 400px;
+    padding: 32px 240px;
+}
+
+.display .subheading {
+    text-align: center;
+    color: rgb(19, 46, 19);
+    margin-bottom: 12px;
+}
+
+.display .catalogue {
+    display: flex;
+    justify-content: center;
+    gap:  8px;
+}
+
+.display .catalogue div {
+    flex: 1;
+    text-align: center;
+}
+
+.display .catalogue img {
+    border-radius: 12px;
+    aspect-ratio: 1;
+}
