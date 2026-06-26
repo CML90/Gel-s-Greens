@@ -8,19 +8,24 @@ h1,h2,h3,h4,h5 {
     color: rgb(207, 252, 211);
 }
 
-.subheading {
-    
-}
-
 h1,h2,h3,h4,h5,p,li,button {
     font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 18px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 200px;
+    padding: 12px 200px 0px;
     background-color: rgb(13, 27, 13);
     color: rgb(208, 231, 207);
 }
@@ -57,7 +62,7 @@ button {
     padding: 80px 200px;
     height: 400px;
     display: flex;
-    gap: 8px;
+    gap: 32px;
 }
 
 #about div{
@@ -65,8 +70,12 @@ button {
 }
 
 .display {
-    height: 400px;
-    padding: 32px 240px;
+    height: 450px;
+    padding: 0px 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .display .subheading {
@@ -91,7 +100,7 @@ button {
     aspect-ratio: 1;
 }
 
-.quote {
+.quote-container {
     height: 350px;
     background-color: rgba(120, 196, 73, 0.549);
     display: flex;
@@ -99,6 +108,22 @@ button {
     align-items: center;
     padding: 32px 280px;
     gap: 32px;
+}
+
+blockquote {
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+}
+
+.quote {
+    font-weight: 300;
+}
+
+.author {
+    align-self: flex-end;
 }
 
 #browse {
