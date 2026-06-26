@@ -19,8 +19,9 @@ h1,h2,h3,h4,h5,p,li,button {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 200px;
-    background-color: rgb(19, 46, 19);
+    background-color: rgb(13, 27, 13);
     color: rgb(208, 231, 207);
 }
 
@@ -51,7 +52,7 @@ button {
 }
 
 #about {
-    background-color: rgb(19, 46, 19);
+    background-color: rgb(13, 27, 13);
     color: rgb(208, 231, 207);
     padding: 80px 200px;
     height: 400px;
@@ -92,7 +93,7 @@ button {
 
 .quote {
     height: 350px;
-    background-color: rgba(192, 255, 192, 0.597);
+    background-color: rgba(120, 196, 73, 0.549);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,7 +130,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(19, 46, 19);
+    background-color: rgb(13, 27, 13);
     padding: 16px;
     color: rgb(208, 231, 207);
 }
